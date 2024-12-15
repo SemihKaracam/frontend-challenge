@@ -267,7 +267,7 @@ const CheckOutNew = () => {
 
     return (
         <div className='pb-[160px]'>
-            <div className='flex items-center justify-between flex-col xl:flex-row mb-12'>
+            <div className='flex justify-between items-start xl:items-center  flex-col xl:flex-row mb-12'>
                 <div className='flex flex-col gap-5'>
                     <h4 className='text-sub-color1'>CHECKOUT OUR NEW</h4>
                     <h2 className='text-[36px] xl:40px'>Latest Listed Properties</h2>
@@ -276,7 +276,7 @@ const CheckOutNew = () => {
                         <br /> nec dignissim purus.
                     </p>
                 </div>
-                <div className='flex gap-4 text-white'>
+                <div className='flex gap-4 text-white flex-start'>
                     <button className='text-sub-color1 border-2 border-primary-color rounded-[30px] px-6 py-3 xl:px-8 xl:py-3'>
                         All
                     </button>

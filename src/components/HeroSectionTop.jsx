@@ -138,8 +138,8 @@ const HeroSectionTop = () => {
         <div className='w-full pt-20'>
             <h4 className='text-sub-color1 mb-3 '>REAL ESTATE</h4>
             <div className='flex flex-col xl:flex-row w-full'>
-                <div className='flex w-full xl:w-2/3 flex-col items-center xl:items-start gap-4'>
-                    <h1 className='text-col-text-1 text-left md:text-left xl:text-left text-[42px] xl:58px'>Find a perfect <br /> home you love..!</h1>
+                <div className='flex w-full xl:w-2/3 flex-col xl:items-start gap-4'>
+                    <h1 className='text-col-text-1 text-left md:text-left xl:text-left'>Find a perfect <br /> home you love..!</h1>
                     <p className='text-col-text-3 text-left xl:text-left'>
                         Lorem Ipsum has been the industry's standard dummy text ever since <br className='hidden xl:block' /> the 1500s, when an unknown printer took a galley
                     </p>

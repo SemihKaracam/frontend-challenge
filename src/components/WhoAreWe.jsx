@@ -61,11 +61,11 @@ import ImageWhoAreWe3 from "../assets/image_whoarewe_3.jpg"
 const WhoAreWe = () => {
     return (
         <div className='mt-12 mb-24 xl:mb-[200px]'>
-            <h4 className='text-sub-color1 pb-8 text-center xl:text-left'>WHO ARE WE</h4>
+            <h4 className='text-sub-color1 pb-8'>WHO ARE WE</h4>
             <div className='flex flex-col xl:flex-row'>
-                <div className='flex w-full xl:w-1/2 flex-col gap-8 items-center xl:items-start'>
-                    <h2 className='text-center xl:text-left text-[28px] xl:40px'>Assisting individuals in <br />locating the appropriate <br />real estate.</h2>
-                    <p className='text-center xl:text-left'>Lorem Ipsum has been the industry's standard dummy text <br className="hidden xl:block" /> ever since the 1500s, when an unknown printer took a galley of <br className="hidden xl:block" /> type and scrambled it </p>
+                <div className='flex w-full xl:w-1/2 flex-col gap-8 xl:items-start'>
+                    <h2 >Assisting individuals in <br />locating the appropriate <br />real estate.</h2>
+                    <p>Lorem Ipsum has been the industry's standard dummy text <br className="hidden xl:block" /> ever since the 1500s, when an unknown printer took a galley of <br className="hidden xl:block" /> type and scrambled it </p>
                     <div className='shadow-custom rounded-[28px] flex items-center gap-4 xl:gap-8 px-6 xl:px-10 py-4 xl:py-6'>
                         <img className='w-8 h-8 xl:w-10 xl:h-10' src={PurpleIcon1} alt="" />
                         <div>
